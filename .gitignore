@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# App data
+vault-mind-desktop/
+*.db
+*.sqlite
+
+# Config with secrets
+.env
+!.env.example
+
+# PyInstaller
+*.manifest
+*.spec
+# --- added by publish-sanitize ---
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.log
+data/
+archives/
